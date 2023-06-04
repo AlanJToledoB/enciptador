@@ -4,169 +4,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de textos</title>
+    <title>Ejemplo de Cuadros en la Izquierda y Derecha con Tailwind CSS</title>
     <!-- Enlace al archivo CSS de Tailwind CSS -->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <link rel="icon" href="icon.png">
     <style>
-       body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+        body {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.encriptador-box {
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-}
+        .encriptador-box {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
 
-.text-welcome {
-  font-weight: 700;
-  margin-bottom: 20px;
-}
+        .text-welcome {
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
 
-.flex {
-  display: flex;
-}
+        .flex {
+            display: flex;
+        }
 
-.flex-col {
-  flex-direction: column;
-}
+        .flex-col {
+            flex-direction: column;
+        }
 
-.w-full {
-  width: 100%;
-}
+        .w-full {
+            width: 100%;
+        }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
+        .mb-2 {
+            margin-bottom: 0.5rem;
+        }
 
-.mt-4 {
-  margin-top: 1rem;
-}
+        .mt-4 {
+            margin-top: 1rem;
+        }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
+        .py-2 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
+        .px-3 {
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+        }
 
-.text-gray-700 {
-  color: #4a5568;
-}
+        .text-gray-700 {
+            color: #4a5568;
+        }
 
-.bg-gray-900 {
-  background-color: #1a202c;
-}
+        .bg-gray-900 {
+            background-color: #1a202c;
+        }
 
-.bg-gray-950 {
-  background-color: #10161e;
-}
+        .bg-gray-950 {
+            background-color: #10161e;
+        }
 
-.no-resize {
-  resize: none;
-}
+        .no-resize {
+            resize: none;
+        }
 
-.shadow {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
+        .shadow {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
 
-.appearance-none {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
+        .appearance-none {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+        }
 
-.border-slate-800 {
-  border-color: #4c4f52;
-}
+        .border-slate-800 {
+            border-color: #4c4f52;
+        }
 
-.rounded {
-  border-radius: 0.25rem;
-}
+        .rounded {
+            border-radius: 0.25rem;
+        }
 
-.text-white {
-  color: #fff;
-}
+        .text-white {
+            color: #fff;
+        }
 
-.focus\:outline-none:focus {
-  outline: none;
-  box-shadow: none;
-}
+        .focus\:outline-none:focus {
+            outline: none;
+            box-shadow: none;
+        }
 
-.focus\:shadow-outline:focus {
-  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
-}
+        .focus\:shadow-outline:focus {
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+        }
 
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
+        .cursor-not-allowed {
+            cursor: not-allowed;
+        }
 
-.justify-center {
-  justify-content: center;
-}
+        .justify-center {
+            justify-content: center;
+        }
 
-.bg-blue-500 {
-  background-color: #3f83f8;
-}
+        .bg-blue-500 {
+            background-color: #3f83f8;
+        }
 
-.hover\:bg-blue-700:hover {
-  background-color: #1c64f2;
-}
+        .hover\:bg-blue-700:hover {
+            background-color: #1c64f2;
+        }
 
-.text-blue-500 {
-  color: #3f83f8;
-}
+        .text-blue-500 {
+            color: #3f83f8;
+        }
 
-.font-bold {
-  font-weight: 700;
-}
+        .font-bold {
+            font-weight: 700;
+        }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
+        .py-2 {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
+        .px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
 
-.rounded {
-  border-radius: 0.25rem;
-}
+        .rounded {
+            border-radius: 0.25rem;
+        }
 
-.footer {
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  height: 100px;
-}
+        .footer {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            height: 100px;
+        }
 
-.footer img {
-  width: 50px;
-  margin: auto;
-}
+        .footer img {
+            width: 50px;
+            margin: auto;
+        }
     </style>
 </head>
 
@@ -182,15 +182,16 @@
             <div class="w-full md:w-1/2">
                 <label for="mostrarTexto" class="block text-gray-700 text-sm font-bold mb-2">Texto ingresado:</label>
                 <textarea id="mostrarTexto"
-                    class="no-resize shadow appearance-none border-slate-800 rounded w-full h-24 py-2 px-3 text-gray-700 leading-tight bg-gray-800 cursor-not-allowed"
-                    disabled></textarea>
+                    class="no-resize shadow appearance-none border-slate-800 rounded w-full h-24 py-2 px-3 text-gray-700 leading-tight bg-gray-800"
+                    ></textarea>
             </div>
         </div>
         <div class="flex justify-center mt-4">
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 rounded" type="button"
                 onclick="encriptarTexto()">Encriptar</button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" type="button"
+                onclick="desencriptarTexto()">Desencriptar</button>
         </div>
-        
     </div>
     <div class="footer">
         <img src="mi logo.png" alt="">
@@ -201,16 +202,22 @@
             const mostrarTexto = document.getElementById('mostrarTexto');
             const texto = inputTexto.value;
 
-            // Implementa aquí tu lógica de encriptación
             const textoEncriptado = encriptar(texto);
 
             mostrarTexto.value = textoEncriptado;
         }
 
+        function desencriptarTexto() {
+            const inputTexto = document.getElementById('inputTexto');
+            const mostrarTexto = document.getElementById('mostrarTexto');
+            const texto = mostrarTexto.value;
+
+            const textoDesencriptado = desencriptar(texto);
+
+            inputTexto.value = textoDesencriptado;
+        }
+
         function encriptar(texto) {
-            // Implementa aquí tu función de encriptación
-            // Puedes utilizar cualquier algoritmo o método de encriptación de tu elección
-            // Aquí se muestra un ejemplo básico de encriptación (sustituir cada letra por la siguiente en el alfabeto)
             const alfabeto = 'abcdefghijklmnopqrstuvwxyz';
             let textoEncriptado = '';
 
@@ -231,7 +238,26 @@
             return textoEncriptado;
         }
 
-    //*La función encriptar() es un ejemplo básico de encriptación que sustituye cada letra por la siguiente en el alfabeto. Puedes reemplazar esta implementación con tu propio algoritmo de encriptación según tus necesidades.
+        function desencriptar(texto) {
+            const alfabeto = 'abcdefghijklmnopqrstuvwxyz';
+            let textoDesencriptado = '';
+
+            for (let i = 0; i < texto.length; i++) {
+                const char = texto[i];
+                const index = alfabeto.indexOf(char.toLowerCase());
+
+                if (index !== -1) {
+                    const prevIndex = (index - 1 + alfabeto.length) % alfabeto.length;
+                    const desencriptedChar = alfabeto[prevIndex];
+
+                    textoDesencriptado += (char === char.toUpperCase()) ? desencriptedChar.toUpperCase() : desencriptedChar;
+                } else {
+                    textoDesencriptado += char;
+                }
+            }
+
+            return textoDesencriptado;
+        }
     </script>
 </body>
 
